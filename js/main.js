@@ -22,7 +22,7 @@ $(document).ready(function($) {
 
 	// loader
 	var loader = function() {
-		setTimeout(function() { 
+		setTimeout(function() {
 			if($('#ftco-loader').length > 0) {
 				$('#ftco-loader').removeClass('show');
 			}
@@ -87,9 +87,9 @@ $(document).ready(function($) {
 		})
 	};
 	burgerMenu();
-	
+
 	var counter = function() {
-		
+
 		$('#section-counter').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
@@ -98,7 +98,6 @@ $(document).ready(function($) {
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
@@ -106,7 +105,7 @@ $(document).ready(function($) {
 					  }, 7000
 					);
 				});
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -119,7 +118,7 @@ $(document).ready(function($) {
 		$('.ftco-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -141,9 +140,9 @@ $(document).ready(function($) {
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -182,7 +181,7 @@ $(document).ready(function($) {
     fixedContentPos: false
   });
 
-   
+
    $('#appointment_date').datepicker({
 	  'format': 'm/d/yyyy',
 	  'autoclose': true
@@ -203,4 +202,3 @@ $(document).ready(function($) {
 
 
 });
-
