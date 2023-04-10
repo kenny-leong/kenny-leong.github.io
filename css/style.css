@@ -222,6 +222,27 @@ button,
 select {
   text-transform: none; }
 
+
+.skills-div {
+  display: flex;
+  margin-left: 175px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-logo {
+  max-width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.progress-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
 button,
 html [type="button"],
 [type="reset"],
