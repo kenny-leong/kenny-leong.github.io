@@ -230,6 +230,22 @@ select {
   flex-wrap: wrap;
 }
 
+.col-md-3.email {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+
+}
+
+.email-address-link {
+  margin-left: 5px;
+}
+
+.email-span {
+  width: 200px;
+  display: inline-flex;
+}
+
 .skill-logo {
   max-width: 120px;
   height: 120px;
