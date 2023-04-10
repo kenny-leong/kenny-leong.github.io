@@ -259,6 +259,20 @@ select {
   width: 200px;
 }
 
+@media screen and (max-width: 480px) {
+  .progress-wrap {
+  margin: 0 auto;
+  width: 100%;
+  }
+  .skills-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 button,
 html [type="button"],
 [type="reset"],
