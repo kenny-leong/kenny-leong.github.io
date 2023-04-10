@@ -252,6 +252,14 @@ select {
   margin-bottom: 20px;
 }
 
+.skill-logo.flask {
+  border-radius: 10px;
+}
+
+.skill-logo.exp {
+  border-radius: 10px;
+}
+
 .progress-wrap {
   display: flex;
   flex-direction: column;
